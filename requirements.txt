@@ -1,7 +1,7 @@
 tensorflow
 ultralytics
 streamlit
-opencv-python
+opencv-python-headless
 numpy
 pillow
 matplotlib

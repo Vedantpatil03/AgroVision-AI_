@@ -19,7 +19,8 @@ st.markdown("Upload a satellite or land image to analyze vegetation coverage.")
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("models/vegetation_saved_model")
+    # Load TensorFlow SavedModel for Keras 3 compatibility
+    return tf.saved_model.load("models/vegetation_saved_model")
 
 model = load_model()
 
