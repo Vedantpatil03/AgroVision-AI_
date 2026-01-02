@@ -1,0 +1,7 @@
+tensorflow
+ultralytics
+streamlit
+opencv-python
+numpy
+pillow
+matplotlib
